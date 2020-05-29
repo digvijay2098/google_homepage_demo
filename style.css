@@ -128,6 +128,14 @@ main input:focus{
     font-size: 1.2em;
 }
 
+.btn button:focus,
+.btn button:hover{
+    outline: none;
+    border: 1px solid #DFE1E5 ;
+    background-color: ghostwhite;
+    color: black;
+}
+
 .btn+p{
     margin: 20px 0;
     color: black;
